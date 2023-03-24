@@ -33,11 +33,12 @@ public class Person {
         this.age = age + increment;
     }
 
-    public boolean isAdult() {
-        return getAge() > 18;
+//    public boolean isAdult() {
+//        return getAge() > 18;
+//    в классе должны быть описаны: конструктор, геттеры и сеттеры, остальное выносим в отдельный класс!!!!
         // this можно не использовать, т.к. обращаемся к методу в рамках нашего класса
         // область видимости
-    }
+//    }
 
     public String toString() {
         return "Имя - " + this.name + ". Возраст - " + this.age;

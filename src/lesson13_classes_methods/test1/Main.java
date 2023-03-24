@@ -4,13 +4,15 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+        PersonService personService = new PersonService();
         Person sasha = new Person("Саша", 26);
 //        if (sasha.getAge() >= 18) {                   ////// убираем в метод !
 //            System.out.println("Иди в бар");
 //        } else {
 //            System.out.println("Иди в школу");
 //        }
-        if (sasha.isAdult()) {
+        if (personService.isAdult(sasha)) {
+            //isAdult(sasha)
             System.out.println("Иди в бар");
         } else {
             System.out.println("Иди в школу");
