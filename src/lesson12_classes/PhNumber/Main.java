@@ -1,4 +1,4 @@
-package PhNumber;
+package lesson12_classes.PhNumber;
 
 import java.util.Scanner;
 

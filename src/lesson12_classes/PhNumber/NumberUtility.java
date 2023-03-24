@@ -1,4 +1,4 @@
-package PhNumber;
+package lesson12_classes.PhNumber;
 
 public class NumberUtility {
     public static String removeSymbols(String phoneNumber) {
