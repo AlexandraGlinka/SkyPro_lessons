@@ -1,4 +1,7 @@
-package lesson12_classes;
+package lesson12_classes.BookAndAuthor;
+
+import lesson12_classes.BookAndAuthor.Author;
+import lesson12_classes.BookAndAuthor.Book;
 
 public class Main {
     public static void main(String[] args) {

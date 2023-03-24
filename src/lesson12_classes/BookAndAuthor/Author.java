@@ -1,4 +1,4 @@
-package lesson12_classes;
+package lesson12_classes.BookAndAuthor;
 
 public class Author {
     private String firstName;
