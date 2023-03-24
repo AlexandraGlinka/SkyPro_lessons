@@ -1,4 +1,6 @@
-package lesson12_classes;
+package lesson12_classes.BookAndAuthor;
+
+import lesson12_classes.BookAndAuthor.Author;
 
 public class Book { // создали класс Book
     private String bookName; // задали ему свойства
