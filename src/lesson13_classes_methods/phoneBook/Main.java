@@ -27,5 +27,14 @@ public class Main {
         // Снова распечатываем все контакты
         System.out.println("Размер тел. книги: " + phoneBook.getCurrentSize());
         // Снова распечатываем размер телефонной книги
+
+        System.out.println(new Contact("Иванов Иван", "89250000005"));
+        Contact c = new Contact("Иванов Иван", "89250000005");
+        String s = c.toString();
+        System.out.println(s);
+
+        //Contact c = new Contact("Иванов Иван", "89250000005");
+        Contact c2 = new Contact("Иванов Иван", "89250000005");
+        System.out.println(c.equals(c2));
     }
 }

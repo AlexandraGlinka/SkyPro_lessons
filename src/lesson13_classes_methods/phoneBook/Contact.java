@@ -25,4 +25,17 @@ public class Contact {
         this.phone = phone;
         // Создали сеттер для phone
     }
+
+    public String toString() {
+        return getNick() + ": " + getPhone();
+    }
+
+    @Override
+    public boolean equals(Object other) {
+        if (this.getClass() != other.getClass()) {
+            return false;
+        }
+        Contact c2 = (Contact) other;
+        return nick.equals(c2.nick);
+    }
 }
