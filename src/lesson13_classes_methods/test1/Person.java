@@ -17,8 +17,20 @@ public class Person {
         return this.age;
     }
 
-    public void setAge(int age) {
-        this.age = age;
+//    public void setAge(int age) {
+//        if (age < 0) {
+//            throw new IllegalArgumentException("Возраст не может быть отрицательным");
+//        } else if (age < this.age) {
+//            throw new IllegalArgumentException("Новый возраст меньше текущего");
+//        }
+//        this.age = age;
+//    }
+
+    public void increaseAge(int increment) {
+        if (increment < 0) {
+            throw new IllegalArgumentException("Инкремент не может быть отрицательным");
+        }
+        this.age = age + increment;
     }
 
     public boolean isAdult() {

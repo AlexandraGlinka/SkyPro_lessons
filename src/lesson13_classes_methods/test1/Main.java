@@ -16,5 +16,7 @@ public class Main {
             System.out.println("Иди в школу");
         }
         System.out.println(sasha);
+        sasha.increaseAge(1);
+        System.out.println(sasha);
     }
 }
