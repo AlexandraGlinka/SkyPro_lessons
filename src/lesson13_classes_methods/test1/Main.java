@@ -15,5 +15,6 @@ public class Main {
         } else {
             System.out.println("Иди в школу");
         }
+        System.out.println(sasha);
     }
 }

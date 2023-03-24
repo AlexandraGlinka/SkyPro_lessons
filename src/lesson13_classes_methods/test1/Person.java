@@ -22,6 +22,12 @@ public class Person {
     }
 
     public boolean isAdult() {
-        return this.getAge() > 18;
+        return getAge() > 18;
+        // this можно не использовать, т.к. обращаемся к методу в рамках нашего класса
+        // область видимости
+    }
+
+    public String toString() {
+        return "Имя - " + this.name + ". Возраст - " + this.age;
     }
 }
