@@ -27,15 +27,6 @@ public class Contact {
     }
 
     public String toString() {
-        return getNick() + ": " + getPhone();
-    }
-
-    @Override
-    public boolean equals(Object other) {
-        if (this.getClass() != other.getClass()) {
-            return false;
-        }
-        Contact c2 = (Contact) other;
-        return nick.equals(c2.nick);
+        return getNick() + ": ";
     }
 }
